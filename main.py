@@ -2,7 +2,7 @@ from email.mime import message
 import json
 import os
 
-import sh
+# import sh
 from openai import OpenAI
 
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
